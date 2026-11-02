@@ -7,7 +7,7 @@
 <title>にっぽん津々浦々へ応援よろしくお願いします｜ショップ・オブ・ザ・イヤー2026 投票受付中</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Klee+One:wght@600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{
   /* イラストの生成り・ピンク・黒ペンをそのまま使う */
@@ -21,7 +21,6 @@
   --ink-2:#5f584f;
   --line:rgba(29,26,23,.14);
   --sans:"Noto Sans JP",sans-serif;
-  --hand:"Klee One","Noto Sans JP",sans-serif;
   --en:"Jost","Noto Sans JP",sans-serif;
   /* 手描き風のゆがんだ枠 */
   --wobble:255px 18px 225px 18px/18px 225px 18px 255px;
@@ -32,14 +31,11 @@ img{display:block;max-width:100%;height:auto}
 a{color:inherit;text-decoration:none}
 .wrap{max-width:750px;margin:0 auto;background:var(--cream);overflow:hidden;padding-bottom:88px}
 .in{padding:0 20px}
-.hand{font-family:var(--hand)}
-/* 手書き書体は線が細いので少しだけ太らせる */
-.head h2,.fv-title,.fv-copy,.letter h3,.letter .to,.letter .slogan,.letter .sign,.num .k,.pt h3,.bb,.last h2{-webkit-text-stroke:.7px currentColor}
 
 /* ---------- 共通見出し（手書き風） ---------- */
 .head{text-align:center;margin-bottom:38px}
 .head .en{display:block;font-family:var(--en);font-weight:500;font-size:16px;letter-spacing:.3em;color:var(--pink-d)}
-.head h2{font-family:var(--hand);font-weight:600;font-size:clamp(28px,8vw,40px);line-height:1.5;letter-spacing:.04em;margin-top:8px}
+.head h2{font-family:var(--sans);font-weight:900;font-size:clamp(28px,8vw,40px);line-height:1.5;letter-spacing:.04em;margin-top:8px}
 .head h2 .u{background:linear-gradient(transparent 66%,var(--pink-l) 66%);padding:0 .08em}
 .head .lead{margin-top:14px;font-size:18px;color:var(--ink-2)}
 /* ハートの点々（ロゴのモチーフ） */
@@ -64,7 +60,7 @@ a{color:inherit;text-decoration:none}
 .soy{font-family:var(--en);font-weight:500;font-size:clamp(15px,4.4vw,24px);letter-spacing:.2em;padding-left:.2em;white-space:nowrap}
 .soy-big{display:block;margin-top:4px;font-family:var(--en);font-weight:600;font-size:clamp(32px,9.2vw,64px);line-height:1.05;letter-spacing:.02em;white-space:nowrap}
 .year{display:inline-block;margin-top:2px;font-family:var(--en);font-weight:600;font-size:clamp(70px,22vw,150px);line-height:1;letter-spacing:.02em;color:var(--pink);-webkit-text-stroke:2px var(--ink);text-shadow:5px 6px 0 var(--ink)}
-.fv-title{display:block;margin-top:14px;font-family:var(--hand);font-weight:600;font-size:clamp(40px,12vw,76px);line-height:1.15;letter-spacing:.1em;padding-left:.1em;white-space:nowrap}
+.fv-title{display:block;margin-top:14px;font-family:var(--sans);font-weight:900;font-size:clamp(40px,12vw,76px);line-height:1.15;letter-spacing:.1em;padding-left:.1em;white-space:nowrap}
 .fv-title .u{background:linear-gradient(transparent 62%,var(--pink-l) 62%)}
 .fv-dl{display:inline-block;margin-top:14px;font-size:clamp(16px,4.6vw,22px);font-weight:900;letter-spacing:.02em;white-space:nowrap;border:2px solid var(--ink);border-radius:var(--wobble);background:#fff;padding:4px 20px}
 .fv-dl b{font-family:var(--en);font-weight:600;font-size:1.6em;line-height:1;color:var(--pink-d);margin:0 .08em}
@@ -80,7 +76,7 @@ a{color:inherit;text-decoration:none}
 .fv-pt .nt{white-space:nowrap;font-size:clamp(12px,3.4vw,15px);color:var(--ink-2);margin-top:10px}
 .fv-body{padding:0 20px 60px;text-align:center}
 .fv-lead{font-weight:700;font-size:clamp(16px,4.6vw,24px);line-height:1.6}
-.fv-copy{margin-top:12px;font-family:var(--hand);font-weight:600;font-size:clamp(30px,8.6vw,48px);line-height:1.5;letter-spacing:.04em}
+.fv-copy{margin-top:12px;font-family:var(--sans);font-weight:900;font-size:clamp(30px,8.6vw,48px);line-height:1.5;letter-spacing:.04em}
 .fv-copy em{font-style:normal;background:linear-gradient(transparent 62%,var(--pink-l) 62%)}
 .fv-cta{margin-top:30px}
 
@@ -129,16 +125,16 @@ a{color:inherit;text-decoration:none}
 .letter .tape{position:absolute;top:-16px;width:110px;height:30px;background:rgba(241,109,130,.55);background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.35) 0 6px,transparent 6px 12px)}
 .letter .tape.l{left:18px;transform:rotate(-6deg)}
 .letter .tape.r{right:18px;transform:rotate(5deg);background-color:rgba(241,236,217,.9)}
-.letter h3{font-family:var(--hand);font-weight:600;font-size:30px;line-height:1.3;text-align:center}
+.letter h3{font-family:var(--sans);font-weight:900;font-size:30px;line-height:1.3;text-align:center}
 .letter h3 small{display:block;font-family:var(--en);font-weight:500;font-size:15px;letter-spacing:.3em;color:var(--pink-d)}
 .letter .body{margin-top:24px}
 .letter p{font-size:18px;font-weight:500;line-height:2}
 .letter p+p{margin-top:1em}
-.letter .to{font-family:var(--hand);font-weight:600;font-size:22px}
-.letter .slogan{margin:1.2em 0;text-align:center;font-family:var(--hand);font-weight:600;font-size:30px;line-height:1.5;color:var(--pink-d)}
+.letter .to{font-family:var(--sans);font-weight:900;font-size:22px}
+.letter .slogan{margin:1.2em 0;text-align:center;font-family:var(--sans);font-weight:900;font-size:30px;line-height:1.5;color:var(--pink-d)}
 .letter .slogan small{display:block;font-family:var(--sans);font-weight:500;font-size:15px;color:var(--ink-2)}
 .letter mark{background:linear-gradient(transparent 62%,var(--pink-l) 62%);color:inherit}
-.letter .sign{margin-top:1.4em;text-align:right;font-family:var(--hand);font-weight:600;font-size:20px}
+.letter .sign{margin-top:1.4em;text-align:right;font-family:var(--sans);font-weight:900;font-size:20px}
 .letter .sign small{display:block;font-family:var(--sans);font-weight:500;font-size:15px;color:var(--ink-2)}
 
 /* ---------- ありがとうございます（数字） ---------- */
@@ -148,7 +144,7 @@ a{color:inherit;text-decoration:none}
 .stats .msg{text-align:center;font-weight:700;font-size:18px;line-height:2;margin:-8px 0 28px}
 .num-grid{display:grid;gap:16px}
 .num{background:var(--paper);color:var(--ink);border:2.5px solid var(--ink);border-radius:var(--wobble);padding:22px 10px 20px;text-align:center;line-height:1.4;box-shadow:5px 6px 0 var(--ink)}
-.num .k{display:block;font-family:var(--hand);font-weight:600;font-size:20px}
+.num .k{display:block;font-family:var(--sans);font-weight:900;font-size:20px}
 .num .v{display:block;margin-top:6px;white-space:nowrap;font-family:var(--en);font-weight:600;font-size:clamp(56px,16vw,80px);line-height:1;color:var(--pink-d)}
 .num .v small{font-family:var(--sans);font-size:.32em;font-weight:900;color:var(--ink);margin-left:.1em}
 .num .v .st{font-size:.7em;margin-right:.06em}
@@ -161,7 +157,7 @@ a{color:inherit;text-decoration:none}
 .pt .ic{display:grid;place-items:center;width:86px;height:86px;border-radius:50%;background:var(--pink-l);border:2px solid var(--ink)}
 .pt .ic svg{width:52px;height:52px;fill:none;stroke:var(--ink);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
 .pt .no{display:block;font-family:var(--en);font-weight:500;font-size:15px;letter-spacing:.2em;color:var(--pink-d)}
-.pt h3{font-family:var(--hand);font-weight:600;font-size:clamp(21px,6vw,25px);line-height:1.45}
+.pt h3{font-family:var(--sans);font-weight:900;font-size:clamp(21px,6vw,25px);line-height:1.45}
 .pt p{font-size:16px;color:var(--ink-2);line-height:1.75;margin-top:6px}
 
 /* ---------- 投票方法 ---------- */
@@ -177,7 +173,7 @@ a{color:inherit;text-decoration:none}
 /* ---------- 声 ---------- */
 .voice{padding:70px 0 64px}
 .bubbles{display:grid;gap:16px}
-.bb{position:relative;background:#fff;border:2px solid var(--ink);border-radius:30px 26px 32px 24px;padding:14px 22px;font-family:var(--hand);font-weight:600;font-size:20px;line-height:1.6}
+.bb{position:relative;background:#fff;border:2px solid var(--ink);border-radius:30px 26px 32px 24px;padding:14px 22px;font-family:var(--sans);font-weight:900;font-size:20px;line-height:1.6}
 .bb::after{content:"";position:absolute;bottom:-12px;width:18px;height:14px;background:var(--ink);clip-path:polygon(0 0,100% 0,30% 100%)}
 .bb:nth-child(odd){margin-right:30px}
 .bb:nth-child(odd)::after{left:34px}
@@ -188,7 +184,7 @@ a{color:inherit;text-decoration:none}
 /* ---------- 締め ---------- */
 .last{padding:60px 20px 70px;text-align:center;background:var(--paper);border-top:2.5px solid var(--ink)}
 .last .logo{width:220px;margin:0 auto}
-.last h2{font-family:var(--hand);font-weight:600;font-size:clamp(28px,8vw,40px);line-height:1.55;letter-spacing:.04em;margin:22px 0 30px}
+.last h2{font-family:var(--sans);font-weight:900;font-size:clamp(28px,8vw,40px);line-height:1.55;letter-spacing:.04em;margin:22px 0 30px}
 .last h2 em{font-style:normal;background:linear-gradient(transparent 62%,var(--pink-l) 62%)}
 
 /* ---------- 商品 ---------- */
@@ -277,7 +273,7 @@ a{color:inherit;text-decoration:none}
             <path d="M27 83 L59 73 M25 105 L65 91 M27 129 L73 111" stroke="#f16d82" stroke-width="2"/>
             <path d="M153 177 L193 161 M159 187 L199 171" stroke="#f16d82" stroke-width="2"/>
           </g>
-          <text x="110" y="132" text-anchor="middle" font-family="Klee One,sans-serif" font-weight="600" font-size="30" fill="#1d1a17">投票箱</text>
+          <text x="110" y="132" text-anchor="middle" font-family="Noto Sans JP,sans-serif" font-weight="900" font-size="28" fill="#1d1a17">投票箱</text>
           <text x="110" y="158" text-anchor="middle" font-family="Jost,sans-serif" font-weight="500" font-size="10" letter-spacing="2" fill="#d9506a">SHOP OF THE YEAR 2026</text>
         </svg>
       </div>
